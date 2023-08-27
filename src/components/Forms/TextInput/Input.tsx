@@ -4,7 +4,7 @@ import { twMerge } from 'tailwind-merge'
 type InputPrefixProps = ComponentProps<'div'>
 
 export function Prefix(props: InputPrefixProps) {
-  return <div {...props} />
+  return <div className="dark:text-zinc-500" {...props} />
 }
 
 type InputControl = ComponentProps<'input'>

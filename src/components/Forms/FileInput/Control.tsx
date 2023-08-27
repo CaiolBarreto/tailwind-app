@@ -22,6 +22,7 @@ export function Control({ multiple = false, ...props }: ControlProps) {
       className="sr-only"
       id={id}
       onChange={handleFilesSelected}
+      multiple={multiple}
       {...props}
     />
   )
